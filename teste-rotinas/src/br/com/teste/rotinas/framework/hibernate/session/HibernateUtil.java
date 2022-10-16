@@ -1,4 +1,4 @@
-package br.com.tes.rotinas.framework.hibernate.session;
+package br.com.teste.rotinas.framework.hibernate.session;
 
 import java.io.Serializable;
 import java.sql.Connection;
