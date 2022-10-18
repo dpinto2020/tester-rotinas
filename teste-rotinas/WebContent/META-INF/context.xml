@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true">
+
+	<Resource name="jdbc/datasource" 
+			  auth="Container" 
+			  type="javax.sql.DataSource"
+		      defaultAutoCommit="false" 
+		      maxActive="50" 
+		      maxIdle="10" 
+		      maxWait="10"
+		      initialSize="10" 
+		      driverClassName="org.firebirdsql.jdbc.FBDriver"
+		      validationQuery="SELECT 'OK'" 
+		      testWhileIdle="true" 
+		      testOnBorrow="true"
+		      numTestPerEvictionRun="5" 
+		      timeBetweenEvictionRunsMillis="5000"
+ 			  minEvictableIdleTimeMillis="60000"
+		      url="jdbc:firebirdsql:localhost/3042:C:\\AUTOTESTE\\BD\\SYNDATATESTE.FDB?autoReconnect=true"
+			  password="admin2517" 
+			  username="SYSDBA" 
+			  antiResourceLocking="false"
+			  antiJARLocking="false" />
+		
+		<!-- Classe do tomcat que está lendo esse arquivo é org.apache.tomcat.dbcp.dbcp.PoolingDataSource -->
+		<!-- POOL DE CONEXÕES -->
+		<!-- https://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html -->
+
+
+		
+
+
+</Context>	
